@@ -12,6 +12,7 @@ print(type(Name), type(Age), type(is_Student))
 multiple = Age*2
 plus = Age+3
 minus = Age-5
+
 print("Multiple:", multiple, "Plus:", plus, "Minus:", minus)
 
 # 4. Logical Operator:
@@ -28,18 +29,25 @@ print("Not a student?", not is_Student)
 # 6. Identity Operator:
 assignment_mark = 50
 print(assignment_mark)
+
 assignment_mark += 10
 print(assignment_mark)
+
 assignment_mark -= 5
 print(assignment_mark)
+
 assignment_mark *= 2
 print(assignment_mark)
+
 assignment_mark **= 2
 print(assignment_mark)
+
 assignment_mark //= 2
 print(assignment_mark)
+
 assignment_mark /= 2
 print(assignment_mark)
+
 assignment_mark %= 3
 print(assignment_mark)
 
